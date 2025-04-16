@@ -36,7 +36,7 @@ const Navbar = ({ scrollToSection }) => {
 
       {/* Menu Buttons: Display on larger screens */}
       <div className={`w-full xl:flex gap-3 justify-center text-xl 2xl:text-2xl grid grid-cols-2 ${isMenuOpen ? 'flex flex-col' : 'hidden xl:flex'}`}>
-        {['Home', 'Manufacturer', 'Purpose', 'Service', 'Design', 'Specification', 'Crew', 'Capabilities', 'Performance', 'Operations', 'Summary', 'Sources'].map((text, index) => (
+        {['Home', 'Summary', 'Manufacturer', 'Purpose', 'Service', 'Design', 'Specification', 'Crew', 'Capabilities', 'Performance', 'Operations', 'Summary', 'Sources'].map((text, index) => (
           <button
             key={index}
             onClick={() => handleClick(index)}

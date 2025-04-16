@@ -13,17 +13,18 @@ import SourcesCard from "./cards/SourcesCard";
 
 const componentMap = {
   1: <HomeCard />,
-  2: <ManufacturerCard />,
-  3: <PurposeCard />,
-  4: <ServiceCard />,
-  5: <DesignCard />,
-  6: <SpecificationCard />,
-  7: <CrewCard />,
-  8: <CapabilitiesCard />,
-  9: <PerformanceCard />,
-  10: <OperationsCard />,
-  11: <SummaryCard />,
-  12: <SourcesCard />
+  2: <SummaryCard />,
+  3: <ManufacturerCard />,
+  4: <PurposeCard />,
+  5: <ServiceCard />,
+  6: <DesignCard />,
+  7: <SpecificationCard />,
+  8: <CrewCard />,
+  9: <CapabilitiesCard />,
+  10: <PerformanceCard />,
+  11: <OperationsCard />,
+  12: <SummaryCard />,
+  13: <SourcesCard />
 };
 
 const Sections = ({ id, title }) => {
